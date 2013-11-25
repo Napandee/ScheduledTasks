@@ -1,6 +1,6 @@
 #Welcome Message etc
 "Welcome to Scheduled Task Exporter"
-"This script is used to export all Scheduled Tasks on Windows 2003/2008+ machine for migration to Windows 2008 hosts and newer"
+"This script is used to export all Scheduled Tasks on Windows server"
 
 #Variables and main functions section
 $RemoteMachine = $($Selection = Read-Host "Server to export from, FQDN required! Localhost is Default"
